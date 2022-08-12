@@ -63,20 +63,27 @@ export default function Home() {
             <div className="text-center">
               <h1 className="pb-2 text-5xl font-bold text-gray-100 font-poppins md:text-6xl lg:text-7xl xl:text-8xl text-shadow-lg">
                 Hydra Hacks
-              </h1> <br />
-              <h3 className="mx-3 text-xl text-gray-200 font-openSans text-shadow-sm lg:text-2xl md:mx-24">
+              </h1> 
+              <h3 className="mx-3 text-xl text-gray-200 font-openSans text-shadow-sm lg:text-2xl md:mx-24 mt-4">
           The West Coast's largest hackathon for marginalized genders.
               </h3> 
-              <br />
             </div>
-            <div className="text-center font-poppins w-9/12 md:w-1/2 text-gray-600 dark:text-gray-400 text-md mx-auto">
-              <a href="https://forms.gle/Y8NNds94L8k2K6m37">
-                <button className="p-1 px-3 text-white border-2 border-white lg:text-2xl lg:font-semibold rounded-xl font-openSans">
-                  Newsletter Signup
+
+            <div className="flex flex-col justify-center mt-8 text-center text-gray-200 font-poppins w-9/12 md:w-1/2 text-md mx-auto" style={{position:'relative',zIndex:10}}>
+              <p className="italic text-gray-200">
+                  Register your interest now (non-binding)! By submitting the form
+                  below, you consent to receiving periodic email updates regarding Hydra
+                  Hacks. We promise not to spam or sell your email.
+              </p>
+              <a href="https://airtable.com/shrWxpro32PLk76aB" rel="noopener noreferrer" target="_blank">
+                <button className="p-1 px-3 text-white border-2 border-white lg:text-2xl lg:font-semibold rounded-xl font-openSans mt-4">
+                  Register Interest
                 </button>
-              </a>
+              </a> 
               
             </div>
+
+
           </div>
         </section>
         <section className="w-full">
@@ -86,16 +93,15 @@ export default function Home() {
                 About <span className="text-hydrangea">Hydra Hacks</span>
               </h2>
               <p className="w-full text-gray-600 dark:text-gray-300">
-              Hydra Hacks is an online hackathon from the Bay Area. 
+              Hydra Hacks hosts gender-focused events open to high school and college students of marginalized genders.
               Whether you're writing your first line of code or you're an expert hacker, Hydra Hacks is for you. 
               You'll have the opportunity to meet new friends, develop awesome projects, and attend workshops! 
-              Hydra Hacks hosts gender-focused events open to high school and college students of marginalized genders!
               </p>
             </div>
             <div>
               <Image
                 src="/logo.png"
-                alt="hydrangea petal profile logo"
+                alt="hydra hacks logo"
                 width={250}
                 height={250}
                 layout="fixed"

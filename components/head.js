@@ -1,15 +1,15 @@
 import Head from "next/head";
 
 export default function HeadObject({ children }) {
-  const title = "Hydrangea Hacks";
+  const title = "Hydra Hacks";
   const description =
-    "A weekend-long virtual hackathon for students of marginalized genders to promote incusivity and diversity in STEM.";
+    "The West Coast's largest hackathon for marginalized genders.";
   const keywords =
     "female, lgbtq, tech, STEM, nonbinary, coding, computer science, hackathon";
-  const author = "Hydrangea Hacks";
-  const twitter = "@hydrangeahacks";
+  const author = "Hydra Hacks";
+  const twitter = "@hydrahacks";
   const image =
-    "https://cdn.discordapp.com/attachments/794104267634900994/822298283678367774/hydra-01.jpg";
+    "https://cdn.discordapp.com/attachments/794104267634900994/822298283678367774/hydra-01.jpg"; 
   return (
     <Head>
       <meta charSet="utf-8" />
