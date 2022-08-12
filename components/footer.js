@@ -1,19 +1,24 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <div className="py-10">
       <p className="text-sm text-center">
-        Made with ❤️ by Hydrangea Hacks 2021.
-      </p>
-      <p className="text-sm text-center">
-        This website is&nbsp;
-        <a
-          href="https://github.com/hydra-hacks/2021"
-          target="_blank"
-          className="text-purple-500 hover:text-gray-900 dark:hover:text-gray-400 hover:underline"
-        >
-          open source.
-        </a>
-      </p>
-    </div>
+      <p className="text-black">&copy; {new Date().getFullYear()} Hydra Hacks.</p>
+          <p className="pt-2 text-sm text-center text-black">
+            Fiscally sponsored by The Hack Foundation.
+            <br />
+            Nonprofit EIN: 81-2908499.
+          </p>
+      </p> <br />
+      <div className="flex justify-center space-x-4 flex-rows">
+      <Image 
+      src="/vercel-black.png" 
+      alt="Vercel"
+      width={350}
+      height={80}
+      layout="fixed" 
+      />
+    </div> </div>
   );
 }
