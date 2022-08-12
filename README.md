@@ -1,8 +1,6 @@
-> As of Nov 24, 2021, this site has been deprecated. Hydrangea Hacks has been rebranded to Hydra Hacks. Follow the development of Hydra Hacks II at <https://github.com/hydra-hacks>
+# Hydra Hacks
 
-# Hydrangea Hacks
-
-Hydrangea Hacks I website. This project uses Next.js, Tailwind CSS for utility-first styling and responsive design, and `react-icons` for icons.
+Hydra Hacks' Fall 2022 website. This project uses Next.js, Tailwind CSS for utility-first styling and responsive design, and `react-icons` for icons. 
 
 ## Develop
 
