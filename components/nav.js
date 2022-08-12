@@ -4,18 +4,18 @@ import { BsCircleHalf } from "react-icons/bs";
 import { useTheme } from "next-themes";
 
 const links = [
-  { label: "Home", href: "/" },
-  {
-    label: "Schedule",
-    href:
-      "https://www.notion.so/hydrangea/6a162851c5be419686149acc0e96d7cd?v=2a36654587804ade8aa22c9d89839673",
-  },
+  // { label: "", href: "/" },
+  // {
+  //   label: "",
+  //   href:
+  //     "",
+  // },
 ];
 
 export default function Nav() {
   const { theme, setTheme } = useTheme();
   useEffect(() => {
-    console.log("Sign up for Hydrangea Hacks!");
+    console.log("Sign up for Hydra Hacks!");
   });
   return (
     <nav className="font-openSans text-white text-shadow-md font-semibold">

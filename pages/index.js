@@ -156,27 +156,17 @@ export default function Home() {
         <section className="pt-48 pb-24 -mx-6 md:h-2/4 bg-gradient-to-t from-purple-600 to-purple-100 dark:from-purple-900 dark:to-purple-500 md:-mx-14 lg:-mx-32 xl:-mx-52 -mt-36">
           <div className="flex flex-col self-center">
             <div className="text-center">
-              <h3 className="text-2xl font-medium text-white font-poppins lg:text-3xl">
-                June 18-20, 2021
-              </h3>
               <h1 className="pb-2 text-5xl font-bold text-gray-100 font-poppins md:text-6xl lg:text-7xl xl:text-8xl text-shadow-lg">
-                Hydrangea Hacks
-              </h1>
+                Hydra Hacks
+              </h1> <br />
               <h3 className="mx-3 text-xl text-gray-200 font-openSans text-shadow-sm lg:text-2xl md:mx-24">
-                A weekend-long virtual hackathon for students of marginalized
-                genders to promote inclusivity and diversity in the STEM
-                community.
-              </h3>
+              The West Coast's largest hackathon for marginalized genders.
+              </h3> <br />
             </div>
             <div className="flex justify-center mx-auto mt-3 space-x-6">
               <a href="https://forms.gle/Y8NNds94L8k2K6m37">
                 <button className="p-1 px-3 text-white border-2 border-white lg:text-2xl lg:font-semibold rounded-xl font-openSans">
-                  Register
-                </button>
-              </a>
-              <a href="https://forms.gle/QAzHRJNfyU3n5Ks76">
-                <button className="p-1 px-3 text-white border-2 border-white lg:text-2xl lg:font-semibold rounded-xl font-openSans">
-                  Mentors
+                  Newsletter
                 </button>
               </a>
             </div>
@@ -186,14 +176,13 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:items-center">
             <div>
               <h2>
-                about <span className="text-hydrangea">hydrangea hacks</span>
+                About <span className="text-hydrangea">Hydra Hacks</span>
               </h2>
               <p className="w-full text-gray-600 dark:text-gray-300">
-                At Hydrangea Hacks, hundreds of students from all over the world
-                will come together and build awesome projects all while creating
-                a supportive learning community. The event is open to all
-                students ages 13+ who self-identify as women (cis and trans) or
-                non-binary individuals.
+              Hydra Hacks is an online hackathon from the Bay Area. 
+              Whether you're writing your first line of code or you're an expert hacker, Hydra Hacks is for you. 
+              You'll have the opportunity to meet new friends, develop awesome projects, and attend workshops! 
+              Hydra Hacks hosts gender-focused events open to high school and college students of marginalized genders!
               </p>
             </div>
             <div>
@@ -208,175 +197,12 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
-          <h2>
-            <span className="text-hydrangea">prize</span> tracks
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7">
-            <Prize
-              icon="/handshake.svg"
-              track="social good"
-              description="Create a hack that addresses social or economic inequality or environmental impact."
-            />
-            <Prize
-              icon="/book.svg"
-              track="education"
-              description="Create a hack that improves the accessibility of information and resources to students."
-            />
-            <Prize
-              icon="/key.svg"
-              track="beginner"
-              description="A track for beginners! Must be the first hackathon for all team members. "
-            />
-            <Prize
-              icon="/heart.svg"
-              track="healthcare"
-              description="Create a hack that improves the quality, efficiency, or accessibility of healthcare."
-            />
-            <Prize
-              icon="/web.svg"
-              track="web (Qoom)"
-              description="Use Qoom as a part of your hack for an opportunity to be invited to Qoom Creator Group, a 12-week apprenticeship program!"
-            />
-            <Prize
-              icon="/brain.svg"
-              track="ML (Sashido)"
-              description="Planning on building an application using Machine Learning? SashiDo is offering a special prize for the most original Image project built with SashiDo and Google's Teachable Machine!"
-            />
-            <Prize
-              icon="/coinbag.svg"
-              track="finance"
-              description="Build a project that addresses a finance related problem. This could be for students, adults, banks, companies, among others!"
-            />
-            <Prize
-              icon="/blockchain.svg"
-              track="organizer's choice"
-              description="Organizer's choice. It's a secret! All projects are entered into this track."
-            />
-          </div>
-        </section>
-        <section>
-          <h2>
-            frequently asked <span className="text-hydrangea">questions</span>
-          </h2>
-          <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
-            <Faq
-              question="What is a virtual hackathon?"
-              answer="Whether you're just getting started or you've been programming since an early age, virtual hackathons are a great place to learn new skills, build your network, find jobs, and have fun! Our goal is to create a memorable and fun virtual experience for everyone, whether you are an experienced hacker or a first-timer!"
-            />
-            <Faq
-              question="Who is eligible to participate?"
-              answer="This hackathon is for women (cis and trans), non-binary individuals, and people of marginalized genders. Cis men are welcome to mentor, volunteer, or judge! The minimum age to participate in this hackathon is 13 years at the start of the event (June 18, 2021). There are no location restrictions!"
-            />
-            <Faq
-              question="What if I don't have a team?"
-              answer="While you do have the option to hack alone, we highly encourage participants to form teams. No worries if you don't have a team as you will have plenty of opportunities to find one virtually through our Discord server or icebreaker activities on the first day!"
-            />
-            <Faq
-              question="How can I prepare for a hackathon?"
-              answer="Our hackathon is beginner friendly! We have workshops tailored to those who are new to coding and intro workshops to help beginner hackers!"
-            />
-            <Faq
-              question="Is there a cost to attend?"
-              answer="Thanks to our generous donors and sponsors, this event is free to attend. Each participant will receive swag and virtual gifts brought to you by our amazing sponsors."
-            />
-          </div>
-        </section>
-        <section>
-          <h2>
-            our <span className="text-hydrangea">team</span>
-          </h2>
-          <div className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
-            <Person
-              src="/team/rebecca.jpeg"
-              name="Rebecca Wang"
-              role="lead organizer."
-              pronouns="she/her"
-            />
-            <Person
-              src="/team/ayushi.jpeg"
-              name="Ayushi Kate"
-              role="marketing."
-              pronouns="she/her"
-            />
-            <Person
-              src="/team/aneeva.jpeg"
-              name="Aneeva Murray"
-              role="social media."
-              pronouns="she/her"
-            />
-            <Person
-              src="/team/rajshree.jpeg"
-              name="Rajshree Mondal"
-              role="outreach."
-              pronouns="she/her"
-            />
-            <Person
-              src="/logo.png"
-              name="Rachel Kurapati"
-              role="marketing."
-              pronouns="she/her"
-            />
-            <Person
-              src="/team/mansi.jpeg"
-              name="Mansi Saini"
-              role="design."
-              pronouns="she/her"
-            />
-            <Person
-              src="/logo.png"
-              name="Hayden"
-              role="design."
-              pronouns="they/them"
-            />
-            <Person
-              src="/logo.png"
-              name="Ella"
-              role="yum."
-              pronouns="she/her"
-            />
-          </div>
-        </section>
-        <section>
-          <h2>
-            <span className="text-hydrangea">special</span> guests
-          </h2>
-          <div className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
-            <Person
-              src="/avatars/eddie.jpeg"
-              name="Eddie Jaoude"
-              role="workshop host."
-              pronouns="he/him"
-            />
-            <Person
-              src="/avatars/vivian.jpeg"
-              name="Vivian Tan"
-              role="panelist."
-              pronouns="she/her"
-            />
-            <Person
-              src="/avatars/stephanie.jpeg"
-              name="Stephanie Su"
-              role="speaker."
-              pronouns="she/her"
-            />
-            <Person
-              src="/avatars/mara.jpeg"
-              name="Mara Hart"
-              role="speaker."
-              pronouns="she/her"
-            />
-            <Person
-              src="/avatars/erica.jpeg"
-              name="Erica Hanson"
-              role="speaker."
-              pronouns="she/her"
-            />
-          </div>
-        </section>
-        <section>
+        
+        {/* <section>
           <div className="flex flex-col justify-center">
-            <h2 className="text-center">sponsors</h2>
+            <h2 className="text-center">
+            Special <span className="text-hydrangea">guests</span>
+            </h2>
             <p className="mx-8 mb-4 -mt-1 text-center text-gray-500 md:mx-24 dark:text-gray-100">
               Interested in being a sponsor for Hydrangea Hacks? Send us an
               email at <strong>hello@hydrahacks.org.</strong>
@@ -393,7 +219,7 @@ export default function Home() {
               );
             })}
           </div>
-        </section>
+        </section> */}
       </main>
       <div className="pb-8"></div>
       <Socials />
