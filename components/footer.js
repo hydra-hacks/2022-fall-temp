@@ -15,8 +15,8 @@ export default function Footer() {
       <Image 
       src="/vercel-black.png" 
       alt="Vercel"
-      width={350}
-      height={80}
+      width={320}
+      height={70}
       layout="fixed" 
       />
     </div> </div>

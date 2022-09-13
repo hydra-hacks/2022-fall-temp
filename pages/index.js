@@ -62,22 +62,22 @@ export default function Home() {
           <div className="flex flex-col self-center">
             <div className="text-center">
               <h1 className="pb-2 text-5xl font-bold text-gray-100 font-poppins md:text-6xl lg:text-7xl xl:text-8xl text-shadow-lg">
-                Hydra Hacks
+                Hydra Hacks  
               </h1> 
-              <h3 className="mx-3 text-xl text-gray-200 font-openSans text-shadow-sm lg:text-2xl md:mx-24 mt-4">
+              <h3 className="mx-3 text-xl text-gray-100 font-openSans text-shadow-sm lg:text-2xl md:mx-24 mt-4">
           The West Coast's largest hackathon for marginalized genders.
               </h3> 
             </div>
 
             <div className="flex flex-col justify-center mt-8 text-center text-gray-200 font-poppins w-9/12 md:w-1/2 text-md mx-auto" style={{position:'relative',zIndex:10}}>
-              <p className="italic text-gray-200">
+              {/* <p className="italic text-gray-200">
                   Register your interest now (non-binding)! By submitting the form
                   below, you consent to receiving periodic email updates regarding Hydra
                   Hacks. We promise not to spam or sell your email.
-              </p>
+              </p> */}
               <a href="https://airtable.com/shrWxpro32PLk76aB" rel="noopener noreferrer" target="_blank">
                 <button className="p-1 px-3 text-white border-2 border-white lg:text-2xl lg:font-semibold rounded-xl font-openSans mt-4">
-                  Register Interest
+                  Contest Signup
                 </button>
               </a> 
               
@@ -86,7 +86,8 @@ export default function Home() {
 
           </div>
         </section>
-        <section className="w-full">
+
+        {/* <section className="w-full">
           <div className="flex flex-col md:flex-row md:items-center">
             <div>
               <h2>
@@ -107,6 +108,57 @@ export default function Home() {
                 layout="fixed"
                 className="absolute hidden w-full md:float-right md:relative"
               />
+            </div>
+          </div> 
+        </section> */}
+
+        <section className="w-full">
+          <div className="flex flex-col md:flex-row md:items-center">
+            <div>
+              <h2>
+                Programming <span className="text-hydrangea">Contest</span>
+              </h2>
+              <p className="w-full text-gray-600 dark:text-gray-300">
+              The Hydra Hacks Programming Contest is a 4 hour event on November 12 comprising a programming contest, keynote speech, panel discussion, and awards.
+              The competition will provide high school students identifying as a marginalized gender with the opportunity to solve 
+              3 creative programming problems in a beginner, intermediate, or advanced division. 
+              It will take place on the HackerRank platform where participants can use a programming language of their choice.
+              All participants will receive Hydra Hacks swag, and the 
+              top 3 finalists in each division will receive prizes worth up to $50. <br /> <br />
+
+              If you are a beginner coder, here are the fundamental concepts you would need to know: booleans/integers/float data structures,
+              functions, list and string methods, if/else statements, and for loops and white loops. 
+              If you are an intermediate coder, in addition to the skills listed above, you would need to know dictionaries, arrays,
+              and random number generations. 
+              </p>
+            </div>
+            <div>
+              <Image
+                src="/logo.png"
+                alt="hydra hacks logo"
+                width={250}
+                height={250}
+                layout="fixed"
+                className="absolute hidden w-full md:float-right md:relative"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section className="w-full">
+          <div className="flex flex-col md:flex-row md:items-center">
+            <div>
+              <h2>
+                Schedule <span className="text-hydrangea">(in Pacific Time)</span>
+              </h2>
+              <p className="w-full text-gray-600 dark:text-gray-300">
+                <b>Saturday, November 12</b> <br />
+              8:45am - 9:00am: Opening Ceremony <br />
+              9:00am - 12:00pm: Contest <br /> 
+              12:00pm - 12:45pm: Lunch with Panel Discussion <br />
+              12:45pm - 1:00pm: Closing Ceremony and Awards <br />
+
+              </p>
             </div>
           </div>
         </section>

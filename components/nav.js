@@ -33,20 +33,6 @@ export default function Nav() {
               </Link>
             </li>
           ))}
-          <li>
-            <button
-              onClick={() => {
-                setTheme(theme === "dark" ? "light" : "dark");
-                document
-                  .querySelector("#theme_toggle")
-                  .classList.toggle("rotate-180");
-              }}
-              className="p-2 rounded-full hover:bg-black dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10 transform duration-200"
-              id="theme_toggle"
-            >
-              <BsCircleHalf size={24} />
-            </button>
-          </li>
         </ul>
       </ul>
     </nav>
